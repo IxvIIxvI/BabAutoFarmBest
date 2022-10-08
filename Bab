@@ -1,0 +1,19 @@
+
+while true do
+    game.workspace.Gravity = 0
+    local TS = game:GetService("TweenService")
+    local tween = TS:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1), {CFrame = CFrame.new(-48.5116386, 37.2721481, -160.387436)})
+    tween:play()
+    tween.Completed:Wait(2)
+    local TS = game:GetService("TweenService")
+    local tween2 = TS:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(20), {CFrame = CFrame.new(-44.2771683, 45.1939774, 8528.86719)})
+    tween2:play()
+    tween2.Completed:Wait(2)
+    local TS = game:GetService("TweenService")
+    local tween1 = TS:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1), {CFrame = CFrame.new(-52.7176704, -360.307922, 9490.61914)})
+    tween1:play()
+    tween1.Completed:Wait(1)
+    game.workspace.Gravity = 196.2
+    wait(17.0)
+end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/personalscripts/main/AntiAFK.lua", true))()
