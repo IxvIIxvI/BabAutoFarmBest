@@ -16,4 +16,8 @@ while true do
     game.workspace.Gravity = 196.2
     wait(17.0)
 end
+
+
+--skided part
 loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/personalscripts/main/AntiAFK.lua", true))()
+--
