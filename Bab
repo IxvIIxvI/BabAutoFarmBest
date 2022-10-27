@@ -16,6 +16,3 @@ while true do
 end
 
 
---skided part
-loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/personalscripts/main/AntiAFK.lua", true))()
---
